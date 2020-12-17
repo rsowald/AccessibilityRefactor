@@ -1,3 +1,5 @@
+/* Whole page*/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +9,17 @@
 body {
     background-color: #d9dcd6;
 }
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Header section */
 
 header {
     padding: 20px;
@@ -41,14 +54,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
+/* Hero image*/
 
 .hero {
     height: 800px;
@@ -59,23 +65,13 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+/* Main content section */
 
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-/* Main content section */
 
 .main-section {
     margin-bottom: 20px;
@@ -93,6 +89,16 @@ main {
 .main-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
 /* Aside benefits section */
@@ -155,6 +161,8 @@ main {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* Footer section */
 
 footer {
     padding: 30px;

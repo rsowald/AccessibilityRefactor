@@ -8,5 +8,8 @@ Clean, logical code is important for long-term sustainability for any applicatio
 
 To achieve these goals, I first refactored and commented the HTML and CSS files to improve the flow for easier maintenance. Then, I consolidated redundancies in the CSS to, again, make it easier to maintain. I turned to accessiblity by first renaming divs to semantic HTML tags. I also made sure there were alt tags on all of the images for maximum accessibility.
 
+![Horiseon Marketing Screenshot 1](screenshots/screenshot1.jpg "Header and Hero Image")
+![Horiseon Marketing Screenshot 2](screenshots/screenshot2.jpg "Content and Aside")
+
 ## Application is live at:
 https://rsowald.github.io/AccessibilityRefactor
